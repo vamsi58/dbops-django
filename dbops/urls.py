@@ -22,4 +22,5 @@ urlpatterns = [
     path('health-check/', health_check),
     path('mysql/', include('mysqldb.urls')),
     path('cassandra/', include('cassandradb.urls')),
+    path('mongo/', include('mongodb.urls')),
 ]
